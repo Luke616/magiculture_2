@@ -129,7 +129,7 @@
 			"loot" : [
 				{"data" : {"name" : "ebwizardry:magic_crystal", "min" : 3, "max" : 6}, "weight" : 9},
 				{"data" : {"name" : "minecraft:torch", "min" : 5, "max" : 20}, "weight" : 5},
-				{"data" : {"name" : "ebwizardry:mana_flask", "min" : 2, "max" : 3}, "weight" : 2},
+				{"data" : {"name" : "ebwizardry:medium_mana_flask", "min" : 2, "max" : 3}, "weight" : 2},
 				{"data" : {"name" : "grimoireofgaia:chest", "meta": 0}, "weight" : 3},
 				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:instant_health", Duration: 1, Amplifier: 0}]}'}, "weight" : 1},
 				{"data" : {"name" : "rustic:elixir", "nbt" : '{ElixirEffects: [{Effect: "minecraft:haste", Duration: 3600, Amplifier: 1}]}' }, "weight" : 1},
@@ -215,6 +215,11 @@
 			],
 			"each" : true,
 			"quantity" : 1
+		},
+		{
+			"level" : [0, 1, 2, 3, 4],
+			"each" : "STARTER",
+			"table" : "minecraft:chests/nether_bridge"
 		},
 		{	
 			"type" : "STARTER", 

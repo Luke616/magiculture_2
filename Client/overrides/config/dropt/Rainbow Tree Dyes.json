@@ -4,7 +4,8 @@
       "match": {
         "blocks": {
           "blocks": [
-            "rainboaks:rainboak_leaves:*"
+            "twilightforest:twilight_leaves:3",
+            "twilightforest:twilight_leaves:11"
           ]
         }
         },

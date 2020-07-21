@@ -57,8 +57,8 @@
   },
   {
     "identifier": "infested",
-    "enabled": true,
-    "entityBlacklist": ["minecraft:zombie", "minecraft:skeleton", "minecraft:stray", "quark:dweller", "quark:ashen", "minecraft:enderman"],
+    "enabled": false,
+    "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 3
   },

@@ -8,30 +8,35 @@
 			{action:"clear"},
 		
 			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},sell:{id:"minecraft:leather",Count:3}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:leather",Count:{min:11,max:12}},sell:{id:"ordinarycoins:coinbronze",Count:{min:18,max:21}}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"minecraft:leather_helmet",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:36,max:42}},sell:{id:"minecraft:leather_chestplate",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:38}},sell:{id:"minecraft:leather_leggings",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"minecraft:leather_boots",Count:1}, CareerLevel:1},
 			
-			{action:"add", buy:{id:"leatherworks:rawhide_cow",Count:5},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:17}}, CareerLevel:1},
-			{action:"add", buy:{id:"leatherworks:rawhide_pig",Count:5},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:17}}, CareerLevel:1},
-			{action:"add", buy:{id:["leatherworks:rawhide_deer","minecraft:rabbit_hide"],Count:4},sell:{id:"ordinarycoins:coinbronze",Count:{min:14,max:17}}, CareerLevel:1},
-			{action:"add", buy:{id:["leatherworks:rawhide_horse","leatherworks:rawhide_wolf"],Count:4},sell:{id:"ordinarycoins:coinbronze",Count:{min:17,max:19}}, CareerLevel:1},
+			{
+				action:"add",
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}}, 
+				sell:{id:"vanillasatchels:satchel",Count:1,Damage:2}, 
+				CareerLevel:2
+			},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"harvestcraft:hardenedleatheritem",Count:3}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:24}},sell:{id:"minecraft:saddle",Count:1}, CareerLevel:2},
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:["spartanweaponry:longbow_leather","spartanweaponry:crossbow_leather","spartanweaponry:caestus_studded"],Count:1}, CareerLevel:2},
 			
-		
-			{action:"add", buy:{id:["leatherworks:rawhide_polarbear","leatherworks:rawhide_llama"],Count:3},sell:{id:"ordinarycoins:coinbronze",Count:{min:18,max:20}}, CareerLevel:2},
-			{action:"add", buy:{id:["leatherworks:rawhide_mule","leatherworks:rawhide_donkey","leatherworks:rawhide_mooshroom"],Count:3},sell:{id:"ordinarycoins:coinbronze",Count:{min:19,max:21}}, CareerLevel:2},
-		
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"minecraft:leather_helmet",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:36,max:42}},sell:{id:"minecraft:leather_chestplate",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:33,max:38}},sell:{id:"minecraft:leather_leggings",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},sell:{id:"minecraft:leather_boots",Count:1}, CareerLevel:2},
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:7,max:8}},sell:{id:"leatherworks:repair_kit",Count:1}, CareerLevel:2},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherhelmetitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherchestplateitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:5,max:6}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherleggingsitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:"harvestcraft:hardenedleatherbootsitem",Count:1,tag:{ench:"random"}}, CareerLevel:3},
+			{action:"add", buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}}, buy:{id:"ordinarycoins:coingold",Count:1},sell:{id:["spartanweaponry:longbow_leather","spartanweaponry:crossbow_leather","spartanweaponry:caestus_studded"],Count:1,tag:{ench:"random"}}, CareerLevel:3},
 			
-			
-			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:16,max:24}},sell:{id:"minecraft:saddle",Count:1}, CareerLevel:3},
-			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:16,max:48}}, buy:{id:"ordinarycoins:coinsilver",Count:2},sell:{id:"leatherworks:pack_brown",Count:1}, CareerLevel:3},
-			
-			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:16,max:48}}, buy:{id:"ordinarycoins:coinsilver",Count:1},sell:{id:["minecraft:leather_helmet","minecraft:leather_boots"],Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:16,max:48}}, buy:{id:"ordinarycoins:coinsilver",Count:1},sell:{id:["minecraft:leather_chestplate","minecraft:leather_leggings"],Count:1,tag:{ench:"random"}}, CareerLevel:4},
-			
-			{action:"add", buyB:{id:"ordinarycoins:coinbronze",Count:{min:16,max:48}}, buy:{id:"ordinarycoins:coinsilver",Count:7},sell:{id:"leatherworks:ender_pack",Count:1}, CareerLevel:5}
+			{action:"add", buy:{id:"ordinarycoins:coinbronze",Count:{min:27,max:32}},sell:{id:"animania:entity_egg_cow_random",Count:1}, CareerLevel:4},
+			{
+				action:"add", 
+				buy:{id:"ordinarycoins:coinbronze",Count:{min:48,max:52}}, 
+				sell:{id:"vanillasatchels:satchel",Count:1,Damage:3}, 
+				CareerLevel:4
+			}
 			
 		]
 	}

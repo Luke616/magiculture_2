@@ -169,8 +169,9 @@
       "golrithsaa:textures/BOP_Shrubland.png"
     ],
 	"T_ROCKYPLATEAU": [ 
-	  "antiqueatlas:textures/gui/tiles/plateau_grass.png",
-	  "antiqueatlas:textures/gui/tiles/plateau_grass2.png",
+	  "golrithsaa:textures/plateau_grass.png",
+	  "golrithsaa:textures/plateau_grass2.png",
+	  "golrithsaa:textures/plateau_grass3.png",
       "golrithsaa:textures/T_RockyPlateau.png",
       "golrithsaa:textures/T_RockyPlateau2.png",
       "golrithsaa:textures/T_RockyPlateau3.png"

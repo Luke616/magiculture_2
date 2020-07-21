@@ -1,0 +1,362 @@
+{
+	"populate": {
+	
+		"ignis_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_ignis", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"ignis_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_ignis", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 4,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "DRY"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		
+		"terra_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_terra", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"terra_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_terra", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 4,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "HILLS"},
+					{"type": "dictionary", "entry": "MOUNTAIN"},
+					{"type": "dictionary", "entry": "LUSH"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		
+		"aqua_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_aqua", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"aqua_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_aqua", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 4,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "WET"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		
+		"aer_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_aer", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"aer_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_aer", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 90,
+			"max-height": 250,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		
+		"ordo_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_ordo", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"ordo_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_ordo", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 8,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 4,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SNOWY"},
+					{"type": "dictionary", "entry": "PLAINS"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		
+		"perditio_all": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_perditio", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 2,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"perditio_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_perditio", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 5,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 2,
+			"chunk-chance": 2,	
+			"min-height": 4,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "DEAD"},
+					{"type": "dictionary", "entry": "SPOOKY"},
+					{"type": "dictionary", "entry": "SANDY"},
+					{"type": "dictionary", "entry": "SWAMP"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"magical_biomes": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "contenttweaker:infused_stone_ignis", "metadata": 0, "weight": 2},{"name": "contenttweaker:infused_stone_aqua", "metadata": 0, "weight": 2},{"name": "contenttweaker:infused_stone_aer", "metadata": 0, "weight": 2},{"name": "contenttweaker:infused_stone_terra", "metadata": 0, "weight": 2},{"name": "contenttweaker:infused_stone_ordo", "metadata": 0, "weight": 2},{"name": "contenttweaker:infused_stone_perditio", "metadata": 0, "weight": 2},{"name": "thaumcraft:ore_cinnabar", "weight": 1}, {"name": "thaumcraft:ore_amber", "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 3,	
+			"min-height": 4,
+			"max-height": 120,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MAGICAL"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+		
+	}
+}

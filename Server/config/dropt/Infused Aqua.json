@@ -1,0 +1,66 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:infused_stone_aqua"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "min": 2,
+		  "max": 4,
+		  "fortuneModifier": 1
+		},
+		
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 49,
+              "fortuneModifier": 0
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "thaumcraft:crystal_essence:0#{Aspects:[{amount:1,key:\"aqua\"}]}"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 0,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 1,
+              "fortuneModifier": 0
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "thaumcraft:crystal_aqua"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

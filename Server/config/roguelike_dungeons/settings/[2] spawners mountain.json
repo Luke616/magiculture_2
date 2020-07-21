@@ -42,8 +42,8 @@
 		{
 			"type" : "ZOMBIE",
 			"potentials" : [
-				{"name" : "minecraft:enderman", "weight" : 15},
-				{"name" : "endthereal:eetle", "weight" : 12},
+				{"name" : "minecraft:enderman", "weight" : 25},
+				{"name" : "grimoireofgaia:flesh_lich", "weight" : 4},
 				{"name" : "grimoireofgaia:ender_dragon_girl", "weight" : 1}
 			],
 			"level" : 4
@@ -73,8 +73,9 @@
 		{
 			"type" : "SPIDER",
 			"potentials" : [
-				{"name" : "minecraft:endermite", "weight" : 1},
-				{"name" : "grimoireofgaia:ender_eye", "weight" : 1}
+				{"name" : "minecraft:endermite", "weight" : 15},
+				{"name" : "grimoireofgaia:ender_eye", "weight" : 15},
+				{"name" : "grimoireofgaia:beholder", "weight" : 1}
 			],
 			"level" : 4
 		},
@@ -113,7 +114,8 @@
 			"type" : "SKELETON",
 			"potentials" : [
 				{"name" : "minecraft:stray", "weight" : 12},
-				{"name" : "quark:ashen", "weight" : 8}
+				{"name" : "quark:ashen", "weight" : 8},
+				{"name" : "thermalfoundation:blitz", "weight" : 1}
 			],
 			"level" : 4
 		},

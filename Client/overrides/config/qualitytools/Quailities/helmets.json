@@ -10,7 +10,9 @@
       }
     ],
     "blacklist": [
-    
+	  {
+		"item": "thaumcraft:goggles"
+	  }
     ],
     "qualities": [
       {

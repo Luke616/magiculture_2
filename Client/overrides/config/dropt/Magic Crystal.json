@@ -1,0 +1,81 @@
+{
+  "rules": [
+	{
+      "match": {
+	    "harvester": {
+			"type": "FAKE_PLAYER"
+				},
+        "blocks": {
+          "blocks": [
+			"t3s4ebw:crystal_crop:7"
+				]
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+        {
+        "selector": {
+			"weight": {
+              "value": 1
+				}
+            },
+        "item": {
+            "items": [
+				"ebwizardry:crystal_shard"
+					],
+			"quantity": {
+				"min": 2,
+				"max": 4
+					}
+			}
+		}
+		]
+	},
+	{
+      "match": {
+	    "harvester": {
+			"type": "REAL_PLAYER"
+				},
+        "blocks": {
+          "blocks": [
+			"t3s4ebw:crystal_crop:7"
+				]
+			},
+		"drops": {
+          "type": "WHITELIST",
+		  "drops": [
+			"ebwizardry:crystal_flower"
+				]
+			}
+        },
+      "replaceStrategy": "REPLACE_ALL",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+        {
+        "selector": {
+			"weight": {
+              "value": 1
+				}
+            },
+        "item": {
+            "items": [
+				"ebwizardry:crystal_shard"
+					],
+			"quantity": {
+				"min": 2,
+				"max": 4
+					}
+			},
+		"xp": {
+			"fixed": 1
+			}
+		}
+		]
+	}
+	]
+}

@@ -1,4 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
 
+  <recipe name="Simple Stirling Generator" required="true">
+    <crafting>
+      <grid size="3x3">
+        <item name="minecraft:stonebrick:0" /><item name="minecraft:furnace" /><item name="minecraft:stonebrick:0" />
+        <item name="minecraft:stonebrick:0" /><item name="SIMPLE_CHASSIS"/><item name="minecraft:stonebrick:0" />
+        <item name="GEAR_STONE" /><item name="minecraft:piston" /><item name="GEAR_STONE" />
+      </grid>
+      <output name="enderio:block_simple_stirling_generator" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Simple Chassis" required="true">
+    <crafting>
+      <grid>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+        <item name="IRON"/><item name="minecraft:redstone"/><item name="IRON"/>
+        <item name="barsIron"/><item name="IRON"/><item name="barsIron"/>
+      </grid>
+      <output name="SIMPLE_CHASSIS"/>
+    </crafting>
+  </recipe>
+
 </enderio:recipes>

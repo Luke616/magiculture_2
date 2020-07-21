@@ -40,29 +40,6 @@
 				]
 			}
 		},
-
-		"quartz": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "quartz_ore",
-				"material": "minecraft:netherrack",
-				"cluster-size": 14
-			},
-			"cluster-count": 16,
-			"min-height": 10,
-			"max-height": 118,
-			"retrogen": true,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "dictionary",
-						"entry": "NETHER"
-					}
-				]
-			},
-			"dimension": "all"
-		},
 		
 		"water_lake_underground": {
 			"distribution": "uniform",
@@ -178,11 +155,51 @@
 				]
 			},
 			"dimension": {
-				"restriction": "blacklist",
+				"restriction": "whitelist",
 				"value": 
 				[
-					-1,
-					1
+					0
+				]
+			}
+		},
+		
+		"spider_cave": {
+			"distribution": "uniform",
+			"follow-terrain": "true",
+			"generator": {
+				"type": "stalactite",
+				"block": "minecraft:web",
+				"material": [
+					{ 
+						"name": "minecraft:stone"
+					},
+					{ 
+						"name": "minecraft:sandstone"
+					}
+				],
+				"gen-body": [
+					{ 
+						"name": "minecraft:air"
+					}
+				],
+				"smooth": false,
+				"fat": false,
+				"min-height": 1,
+				"height-variance": 1,
+				"height-mod": 2,
+				"gen-size": 1,
+				"size-variance": 0
+			},
+			"cluster-count": 3,
+			"chunk-chance": 1,
+			"min-height": 8,
+			"max-height": 60,
+			"retrogen": false,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": 
+				[
+					0
 				]
 			}
 		}

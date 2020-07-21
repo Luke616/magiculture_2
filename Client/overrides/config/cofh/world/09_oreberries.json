@@ -1,0 +1,327 @@
+{
+	"populate": {
+	
+		"copper_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:copper_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 10,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "PLAINS"},
+					{"type": "dictionary", "entry": "HILLS"},
+					{"type": "dictionary", "entry": "MESA"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"tin_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:tin_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 13,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SNOWY"},
+					{"type": "dictionary", "entry": "MOUNTAIN"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"lead_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:lead_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 16,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MOUNTAIN"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"aluminum_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:aluminum_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 15,	
+			"min-height": 16,
+			"max-height": 56,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "PLAINS"},
+					{"type": "dictionary", "entry": "FOREST"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"silver_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:silver_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 18,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SNOWY"},
+					{"type": "dictionary", "entry": "SWAMP"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"iron_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:iron_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 15,	
+			"min-height": 16,
+			"max-height": 42,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MOUNTAIN"},
+					{"type": "dictionary", "entry": "HILLS"},
+					{"type": "dictionary", "entry": "MESA"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"gold_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:gold_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 24,	
+			"min-height": 16,
+			"max-height": 32,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SANDY"},
+					{"type": "dictionary", "entry": "SWAMP"}
+					]
+				},
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"nickel_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:nickel_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 18,	
+			"min-height": 16,
+			"max-height": 32,
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"platinum_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:platinum_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 36,	
+			"min-height": 16,
+			"max-height": 24,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "OCEAN"}
+					]
+				},
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"essence_oreberries": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "stalagmite",
+				"block": [{"name": "oreberries:essence_oreberry_bush", "metadata": 2}],
+				"material": [{"name": "minecraft:stone"}],
+				"gen-body": [{"name": "minecraft:air"}],
+				"gen-size": 1,
+				"min-height": 1,
+				"height-variance": 0,
+				"size-variance": 0
+					},
+			"cluster-count": 1,
+			"chunk-chance": 32,	
+			"min-height": 16,
+			"max-height": 24,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MAGICAL"}
+					]
+				},
+			"retrogen": "true",
+			"ceiling": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+	}
+}

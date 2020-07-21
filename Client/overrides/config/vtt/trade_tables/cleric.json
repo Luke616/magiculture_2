@@ -32,7 +32,7 @@
 			{
 				action: "add",
 				CareerLevel: 1,
-				buy: {id:"immersiveengineering:metal",Damage:3,Count:9},
+				buy: {id:"embers:ingot_silver",Damage:0,Count:9},
 				sell: {id:"ordinarycoins:coinbronze",Count:{min:15,max:17}}
 			},
 			
@@ -61,7 +61,7 @@
 				action: "add",
 				CareerLevel: 2,
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:32,max:35}},
-				sell: {id:"xreliquary:glowing_water",Count:3}
+				sell: {id:"xreliquary:glowing_water",Count:{min:6,max:7}}
 			},
 			
 			{
@@ -81,8 +81,8 @@
 			{
 				action: "add",
 				CareerLevel: 3,
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:12,max:48}},
-				buy:{id:"ordinarycoins:coinsilver",Count:5},
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:5},
 				sell: {id:"xreliquary:angelheart_vial",Count:1}
 			},
 			
@@ -90,28 +90,28 @@
 				action: "add",
 				CareerLevel: 4,
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:54,max:56}},
-				sell: {id:"xreliquary:holy_hand_grenade",Count:3}
+				sell: {id:"xreliquary:holy_hand_grenade",Count:{min:5,max:6}}
 			},
 			
 			{
 				action: "add",
 				CareerLevel: 4,
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:18,max:25}},
-				buy:{id:"ordinarycoins:coinsilver",Count:6},
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:4}},
+				buy:{id:"ordinarycoins:coingold",Count:6},
 				sell: {id:"xreliquary:mercy_cross",Count:1,tag:{ench:"random"}}
 			},
 			
 			{
 				action: "add",
 				CareerLevel: 5,
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:12,max:24}},
-				buy:{id:"ordinarycoins:coinsilver",Count:18},
+				buyB:{id:"ordinarycoins:coingold",Count:{min:2,max:3}},
+				buy:{id:"ordinarycoins:coinplatinum",Count:2},
 				sell: {id:"contenttweaker:lifeblood_crystal",Count:1}
 			},
 			
 			{
 				action:"add", 
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:24,max:27}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
 				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect: "potioncore:purity"}}, 
 				CareerLevel:5
 			}

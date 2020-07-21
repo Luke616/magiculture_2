@@ -34,8 +34,8 @@
     "antiqueatlas:tomb": {},
     "antiqueatlas:tower": {},
     "antiqueatlas:village": {},
-    "atlasextras:travel": {},
-    "atlasextras:travelfrom": {},
-    "atlasextras:travelto": {}
+    "ebwizardry:obelisk": {},
+    "ebwizardry:shrine": {},
+    "ebwizardry:wizard_tower": {}
   }
 }

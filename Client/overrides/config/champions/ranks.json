@@ -18,13 +18,13 @@
     "color": 6750207,
     "affixes": 3,
     "growthFactor": 12,
-    "chance": 0.2
+    "chance": 0.3
   },
   {
     "tier": 4,
     "color": 13382655,
     "affixes": 4,
     "growthFactor": 16,
-    "chance": 0.1
+    "chance": 0.2
   }
 ]

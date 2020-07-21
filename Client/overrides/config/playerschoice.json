@@ -1,79 +1,27 @@
-[
-  {
-    "id": "dsurround",
-    "name": "Dynamic Surroundings",
-    "desc": "Adds various visual and audio effects to improve immersion.",
-    "website": "https://minecraft.curseforge.com/projects/dynamic-surroundings",
-    "category": "Graphics & Sound",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "betterfoliage",
-    "name": "Better Foliage",
-    "desc": "Makes your game look more impressive, mainly by improving how vegetation looks. Consider disabling this if you have a lower-end computer.",
-    "website": "https://minecraft.curseforge.com/projects/better-foliage",
-    "category": "Graphics & Sound",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "soundfilters",
-    "name": "Sound Filters",
-    "desc": "Adds various sound filters based on player location, including reverb in caves and muted sounds underwater.",
-    "website": "https://minecraft.curseforge.com/projects/sound-filters",
-    "category": "Graphics & Sound",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "ambientsounds",
-    "name": "Ambient Sounds",
-    "desc": "Adds various ambient noises to enhance immersion.",
-    "website": "https://minecraft.curseforge.com/projects/ambientsounds",
-    "category": "Graphics & Sound",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "chunkpregenerator",
-    "name": "Chunk Pregenerator",
-    "desc": "A utility mod which allows you to pregenerate worlds. Useful for server owners but not the standard player.",
-    "website": "https://minecraft.curseforge.com/projects/chunkpregenerator",
-    "category": "Utility",
-    "group": "",
-    "base": false,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "smarthud",
-    "name": "Smart HUD",
-    "desc": "Adds a configurable HUD next to the hotbar which shows items like the clock or compass at all times. Also adds an item pickup display in the bottom left.",
-    "website": "https://minecraft.curseforge.com/projects/smart-hud",
-    "category": "HUD & Menus",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  },
-  {
-    "id": "coordinatesplusmod",
-    "name": "Batty's Coordinates",
-    "desc": "A HUD feature that adds coordinate and position info in the corner of your screen. Useful for communicating your location to other players or for tracking down your gravestone.",
-    "website": "https://minecraft.curseforge.com/projects/batty-ui",
-    "category": "HUD & Menus",
-    "group": "",
-    "base": true,
-    "extraMods": [],
-    "copyFiles": []
-  }
-]
+{
+  "mods": [
+    {
+      "id": "dummy1",
+      "name": "Normal Mode",
+      "desc": "Unlock recipes, obtain loot, and complete quests based on a chosen profession and magic discipline. Once you finish the quest line for your class, you may unlock additional classes. Designed with multiplayer in mind. Good for players who enjoy a gradual, divergent progression system. Also good for new players, since you are exposed to new mods gradually.",
+      "website": "https://www.curseforge.com/minecraft/modpacks/magiculture-2",
+      "category": "",
+      "group": "mode1",
+      "base": true,
+      "extraMods": [],
+      "copyFiles": []
+    },
+	{
+      "id": "dummy2",
+      "name": "No Class Mode",
+      "desc": "Play unrestricted by the class selection system, although the quest book will not change. A more classic magiculture experience. Good for players who dislike the questing system, or for players who don't care for gradual progression.",
+      "website": "https://www.curseforge.com/minecraft/modpacks/magiculture-2",
+      "category": "",
+      "group": "mode1",
+      "base": false,
+      "extraMods": [],
+      "copyFiles": ["/config/playerschoice_files/scripts/optional/no_class.zs"]
+    }
+  ],
+  "crashing_mods": [*]
+}

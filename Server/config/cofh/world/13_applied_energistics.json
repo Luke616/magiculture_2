@@ -1,0 +1,114 @@
+{
+	"dependencies": "thermalfoundation",
+	"populate": {
+	
+	
+		"skystone_boulder": {
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": {
+					"name": "appliedenergistics2:sky_stone_block",
+					"metadata": 0
+				},
+				"material": ["minecraft:grass"],
+				"diameter": 5,
+				"size-variance": 2
+			},
+			"cluster-count": 1,
+			"chunk-chance": 500,	
+			"min-height": 56,
+			"max-height": 90,
+			"retrogen": "false",
+			"ceiling": true,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{"type": "dictionary", "entry": "OCEAN"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"cert_quartz_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "appliedenergistics2:quartz_ore", "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,	
+			"min-height": 36,
+			"max-height": 72,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"cert_quartz_charged_vein": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "appliedenergistics2:quartz_ore", "weight": 14}, {"name": "appliedenergistics2:charged_quartz_ore", "weight": 3}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 12,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 8,	
+			"min-height": 2,
+			"max-height": 36,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+	
+		"cert_quartz_beneath": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [{"name": "appliedenergistics2:quartz_ore", "weight": 14}, {"name": "appliedenergistics2:charged_quartz_ore", "weight": 5}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 18,
+				"sparse": false,
+				"spindly": true
+			},
+			"cluster-count": 1,
+			"chunk-chance": 7,	
+			"min-height": 2,
+			"max-height": 240,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-2
+				]
+			}
+		}
+	
+	}
+}

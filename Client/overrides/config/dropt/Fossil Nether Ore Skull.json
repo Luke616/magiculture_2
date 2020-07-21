@@ -1,0 +1,138 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:fossil_nether_ore_2"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL",
+	  "dropCount": {
+		  "min": 2,
+		  "max": 3,
+		  "fortuneModifier": 0
+		},
+		
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 25,
+		      "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "witherskelefix:fragment"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  
+		  {
+          "selector": {
+			"weight": {
+              "value": 5
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+			  "minecraft:skull:1"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  
+		  {
+          "selector": {
+			"weight": {
+              "value": 9,
+		      "fortuneModifier": -1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+			  "xreliquary:mob_ingredient:1",
+              "inspirations:materials:7",
+			  "quark:black_ash"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "lootchests:loot_crate:1",
+			  "lootchests:loot_crate:2"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "thaumcraft:curio:4",
+			  "thaumcraft:curio:4",
+			  "thaumcraft:curio:3",
+			  "thaumcraft:curio:3",
+			  "thaumcraft:curio:5"
+            ],
+            "quantity": {
+              "fixed": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

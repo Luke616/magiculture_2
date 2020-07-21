@@ -1,0 +1,94 @@
+{
+	"populate": {
+	
+		"bonus_spectrite": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [
+				{"name": "contenttweaker:spectrite_ore_bonus", "weight": 25}, 
+				{"name": "contenttweaker:spectrite_ore_shiny", "weight": 1}, 
+				{"name": "contenttweaker:fossil_ore_2", "weight": 3}
+						],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 6,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 24,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		
+		"bonus_spectrite_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "large-vein",
+				"block": [
+				{"name": "contenttweaker:spectrite_ore_bonus", "weight": 25}, 
+				{"name": "contenttweaker:spectrite_ore_shiny", "weight": 1}, 
+				{"name": "contenttweaker:fossil_ore_2", "weight": 3}
+						],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 16,
+				"sparse": false,
+				"spindly": false
+			},
+			"cluster-count": 1,
+			"chunk-chance": 30,	
+			"min-height": 8,
+			"max-height": 128,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-2
+				]
+			}
+		},
+		
+		"bonus_spectrite_geode_deepdark": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": "minecraft:obsidian",
+				"material": ["minecraft:stone", "traverse:red_rock", "traverse:blue_rock", "quark:biome_cobblestone",  "minecraft:sandstone", "minecraft:cobblestone", "minecraft:red_sandstone", "minecraft:air"],
+				"hollow": true,
+				"filler": [
+				{"name": "contenttweaker:spectrite_ore_bonus", "weight": 24}, 
+				{"name": "contenttweaker:spectrite_ore_shiny", "weight": 1},
+				{"name": "minecraft:lava", "weight": 5}, 
+				{"name": "contenttweaker:fossil_ore_1", "weight": 5},
+				{"name": "contenttweaker:fossil_ore_2", "weight": 3}
+				],
+				"crust": "minecraft:obsidian"
+			},
+			"cluster-count": 1,
+			"chunk-chance": 50,
+			"min-height": 8,
+			"max-height": 20,
+			"biome": "all",
+			"in-village": false,
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					-2
+				]
+			}
+		}
+				
+	}
+}

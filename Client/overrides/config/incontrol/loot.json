@@ -1,20 +1,5 @@
 [
   {
-    "mob": "endthereal:eetle",
-    "remove": "endthereal:elytron_fragment"
-  },
-  {
-    "mob": "endthereal:eetle",
-    "random": "0.10",
-    "item": "xreliquary:mob_ingredient@11"
-  },
-  {
-    "mob": "endthereal:eetle",
-    "player": true,
-    "random": "0.12",
-    "item": "endthereal:elytron_fragment"
-  },
-  {
     "mob": "quark:wraith",
     "remove": "quark:soul_bead"
   },
@@ -42,25 +27,6 @@
     "item": "enderio:item_material@20"
   },
   
-  // Adding leatherworks drops for animania animals
-  {
-    "mob": ["animania:bull_mooshroom","animania:calf_mooshroom","animania:cow_mooshroom"],
-    "remove": "leatherworks:rawhide_cow"
-  },
-  {
-    "mob": ["animania:bull_mooshroom","animania:cow_mooshroom"],
-    "item": "leatherworks:rawhide_mooshroom"
-  },
-  {
-    "mob": ["animania:sow_yorkshire","animania:hog_yorkshire","animania:sow_old_spot","animania:hog_old_spot","animania:sow_large_black","animania:hog_large_black","animania:sow_large_white","animania:hog_large_white","animania:sow_duroc","animania:hog_duroc","animania:sow_hampshire","animania:hog_hampshire"],
-    "item": "leatherworks:rawhide_pig"
-  },
-  {
-    "mob": ["minecraft:zombie_pigman","nex:pigtificate","nex:pigtificate_leader"],
-    "random": "0.3",
-    "item": "leatherworks:rawhide_pig"
-  },
-  
   // Adding coin drops to monsters
   {
     "mob": ["minecraft:zombie","minecraft:skeleton","minecraft:spider","minecraft:cave_spider","minecraft:silverfish","minecraft:zombie_villager"],
@@ -69,7 +35,7 @@
 	"itemcount": "0-1/0-1/0-2/1-2/1-3"
   },
   {
-    "mob": ["minecraft:creeper","minecraft:stray","minecraft:husk","minecraft:blaze","minecraft:guardian","minecraft:zombie_pigman","minecraft:vex","minecraft:shulker","minecraft:wither_skeleton","minecraft:endermite","quark:ashen","quark:dweller","quark:wraith","thaumcraft:brainyzombie","thaumcraft:firebat","thermalfoundation:blizz","endthereal:eetle","nex:bone_spider","nex:brute","nex:ghastling","nex:nethermite","nex:salamander","nex:wight","nex:spore_creeper","nex:spinout"],
+    "mob": ["minecraft:creeper","minecraft:stray","minecraft:husk","minecraft:blaze","minecraft:guardian","minecraft:zombie_pigman","minecraft:vex","minecraft:shulker","minecraft:wither_skeleton","minecraft:endermite","quark:ashen","quark:dweller","quark:wraith","thaumcraft:brainyzombie","thaumcraft:firebat","thermalfoundation:blizz","netherex:coolmar_spider","netherex:brute","netherex:ghastling","netherex:nethermite","netherex:salamander","netherex:wight","netherex:spore_creeper","netherex:spinout"],
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "1-2/1-2/1-3/1-3/1-4"
@@ -83,50 +49,50 @@
   
   // Adding special drops to bosses
   {
-    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:ender_dragon","minecraft:elder_guardian","nex:ghast_queen","botania:doppleganger"],
+    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:ender_dragon","minecraft:elder_guardian","netherex:ghast_queen","botania:doppleganger"],
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "16-20/17-21/18-22/19-23/20-24"
   },
   {
-    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:ender_dragon","minecraft:elder_guardian","nex:ghast_queen","botania:doppleganger"],
+    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:ender_dragon","minecraft:elder_guardian","netherex:ghast_queen","botania:doppleganger"],
     "player": true,
     "item": "ordinarycoins:coinsilver@0",
 	"itemcount": "1"
   },
   {
-    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:elder_guardian"],
+    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:elder_guardian","grimoireofgaia:mimic"],
     "player": true,
     "item": ["lootchests:loot_crate@1"]
   },
   {
-    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:elder_guardian"],
+    "mob": ["minecraft:illusion_illager","minecraft:wither","minecraft:elder_guardian","grimoireofgaia:mimic"],
     "player": true,
 	"random": "0.3",
 	"remove": ["lootchests:loot_crate@1"],
     "item": ["lootchests:loot_crate@2"]
   },
   {
-    "mob": ["minecraft:ender_dragon","nex:ghast_queen","botania:doppleganger"],
+    "mob": ["minecraft:ender_dragon","netherex:ghast_queen","botania:doppleganger"],
     "player": true,
     "item": ["lootchests:loot_crate@2"]
   },
   {
-    "mob": ["minecraft:ender_dragon","nex:ghast_queen","botania:doppleganger"],
+    "mob": ["minecraft:ender_dragon","netherex:ghast_queen","botania:doppleganger"],
     "player": true,
 	"random": "0.3",
 	"remove": ["lootchests:loot_crate@2"],
     "item": ["lootchests:loot_crate@3"]
   },
-
- 
+  
+  
   // Basic GOG mobs coins replacement for nuggets
   {
     "mob": "grimoireofgaia:*",
     "remove": ["minecraft:gold_nugget", "minecraft:iron_nugget"]
   },
   {
-    "mob": ["grimoireofgaia:sludge_girl", "grimoireofgaia:gelatinous_slime", "grimoireofgaia:cecaelia", "grimoireofgaia:arachnae", "grimoireofgaia:ant", "grimoireofgaia:ant_ranger", "grimoireofgaia:wither_cow", "grimoireofgaia:succubus", "grimoireofgaia:harpy", "grimoireofgaia:gryphon", "grimoireofgaia:naga", "grimoireofgaia:shaman", "grimoireofgaia:spriggan", "grimoireofgaia:siren", "grimoireofgaia:toad", "grimoireofgaia:matango", "grimoireofgaia:hunter", "grimoireofgaia:satyress", "grimoireofgaia:mandragora", "grimoireofgaia:centaur", "grimoireofgaia:bee", "grimoireofgaia:dryad", "grimoireofgaia:nine_tails", "grimoireofgaia:anubis", "thermalfoundation:blizz", "grimoireofgaia:yuki-onna", "grimoireofgaia:mermaid", "grimoireofgaia:sharko", "grimoireofgaia:selkie", "grimoireofgaia:yeti", "grimoireofgaia:werecat", "grimoireofgaia:cyclops", "grimoireofgaia:witch", "grimoireofgaia:vampire", "grimoireofgaia:banshee", "grimoireofgaia:dhampir", "grimoireofgaia:dullahan", "grimoireofgaia:ender_dragon_girl", "grimoireofgaia:ender_eye", "grimoireofgaia:mummy", "grimoireofgaia:flesh_lich", "grimoireofgaia:bone_knight", "grimoireofgaia:creep", "grimoireofgaia:cobble_golem", "grimoireofgaia:cobblestone_golem", "grimoireofgaia:dwarf", "grimoireofgaia:orc", "grimoireofgaia:goblin", "grimoireofgaia:feral_goblin", "grimoireofgaia:deathword", "grimoireofgaia:chest", "grimoireofgaia:minotaur", "grimoireofgaia:minotaurus", "grimoireofgaia:oni", "grimoireofgaia:kobold", "grimoireofgaia:kikimora"],
+    "mob": ["grimoireofgaia:sludge_girl", "grimoireofgaia:gelatinous_slime", "grimoireofgaia:cecaelia", "grimoireofgaia:arachnae", "grimoireofgaia:ant", "grimoireofgaia:ant_ranger", "grimoireofgaia:wither_cow", "grimoireofgaia:succubus", "grimoireofgaia:harpy", "grimoireofgaia:gryphon", "grimoireofgaia:naga", "grimoireofgaia:shaman", "grimoireofgaia:spriggan", "grimoireofgaia:siren", "grimoireofgaia:toad", "grimoireofgaia:matango", "grimoireofgaia:hunter", "grimoireofgaia:satyress", "grimoireofgaia:mandragora", "grimoireofgaia:centaur", "grimoireofgaia:bee", "grimoireofgaia:dryad", "grimoireofgaia:nine_tails", "grimoireofgaia:anubis", "thermalfoundation:blizz", "grimoireofgaia:yuki-onna", "grimoireofgaia:mermaid", "grimoireofgaia:sharko", "grimoireofgaia:selkie", "grimoireofgaia:yeti", "grimoireofgaia:werecat", "grimoireofgaia:cyclops", "grimoireofgaia:witch", "grimoireofgaia:vampire", "grimoireofgaia:banshee", "grimoireofgaia:dhampir", "grimoireofgaia:dullahan", "grimoireofgaia:ender_dragon_girl", "grimoireofgaia:ender_eye", "grimoireofgaia:mummy", "grimoireofgaia:flesh_lich", "grimoireofgaia:bone_knight", "grimoireofgaia:creep", "grimoireofgaia:cobble_golem", "grimoireofgaia:cobblestone_golem", "grimoireofgaia:dwarf", "grimoireofgaia:orc", "grimoireofgaia:goblin", "grimoireofgaia:feral_goblin", "grimoireofgaia:deathword", "grimoireofgaia:chest", "grimoireofgaia:minotaurus", "grimoireofgaia:oni", "grimoireofgaia:kobold", "grimoireofgaia:kikimora", "grimoireofgaia:beholder", "grimoireofgaia:gorgon", "grimoireofgaia:harpy_wizard", "grimoireofgaia:illager_fire", "grimoireofgaia:illager_inquisitor"],
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "2-3/2-4/2-5/2-6/3-6"
@@ -135,18 +101,18 @@
  
   // Tier 3 GOG Rewards
   {
-    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire"],
+    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire", "grimoireofgaia:minotaur"],
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "16-20/17-21/18-22/19-23/20-24"
   },
   {
-    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire"],
+    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire", "grimoireofgaia:minotaur"],
     "player": true,
     "item": ["lootchests:loot_crate@1"]
   },
   {
-    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire"],
+    "mob": ["grimoireofgaia:sphinx", "grimoireofgaia:valkyrie", "grimoireofgaia:vampire", "grimoireofgaia:minotaur"],
     "player": true,
 	"random": "0.3",
 	"remove": ["lootchests:loot_crate@1"],
@@ -168,7 +134,7 @@
     "item": "xreliquary:mob_ingredient@2"
   },
   {
-    "mob": ["nex:bone_spider"],
+    "mob": ["netherex:coolmar_spider"],
     "random": "0.2", 
     "item": "xreliquary:mob_ingredient@2"
   },
@@ -189,7 +155,7 @@
 
   // Leathery Wing
   {
-    "mob": ["grimoireofgaia:succubus", "grimoireofgaia:harpy", "grimoireofgaia:gryphon"],
+    "mob": ["grimoireofgaia:succubus", "grimoireofgaia:harpy", "grimoireofgaia:gryphon","grimoireofgaia:ender_eye"],
     "random": "0.3", 
     "item": "xreliquary:mob_ingredient@5"
   },
@@ -203,12 +169,12 @@
  
   // Molten Core
   {
-    "mob": ["grimoireofgaia:nine_tails", "grimoireofgaia:sphinx", "grimoireofgaia:succubus", "grimoireofgaia:anubis"],
+    "mob": ["grimoireofgaia:nine_tails", "grimoireofgaia:sphinx", "grimoireofgaia:succubus", "grimoireofgaia:anubis", "grimoireofgaia:illager_fire"],
     "random": "0.3", 
     "item": "xreliquary:mob_ingredient@7"
   },
   {
-    "mob": ["nex:spinout", "nex:salamander", "nex:nethermite"],
+    "mob": ["netherex:spinout", "netherex:salamander", "netherex:nethermite"],
     "random": "0.1", 
     "item": "xreliquary:mob_ingredient@7"
   },
@@ -220,14 +186,14 @@
     "item": "xreliquary:mob_ingredient@10"
   },
     {
-    "mob": ["thermalfoundation:blizz", "nex:wight"],
+    "mob": ["thermalfoundation:blizz", "netherex:wight"],
     "random": "0.12", 
     "item": "xreliquary:mob_ingredient@10"
   },
   
   // Nebulous Heart
   {
-    "mob": ["grimoireofgaia:witch", "grimoireofgaia:vampire", "grimoireofgaia:banshee", "grimoireofgaia:dhampir", "grimoireofgaia:dullahan", "grimoireofgaia:ender_dragon_girl", "grimoireofgaia:ender_eye"],
+    "mob": ["grimoireofgaia:witch", "grimoireofgaia:vampire", "grimoireofgaia:banshee", "grimoireofgaia:dhampir", "grimoireofgaia:dullahan", "grimoireofgaia:ender_dragon_girl", "grimoireofgaia:ender_eye", "grimoireofgaia:illager_inquisitor"],
     "random": "0.3", 
     "item": "xreliquary:mob_ingredient@11"
   },
@@ -246,19 +212,19 @@
     "item": "xreliquary:mob_ingredient@0"
   },
   {
-    "mob": ["nex:bone_spider"],
+    "mob": ["netherex:coolmar_spider"],
     "random": "0.2", 
     "item": "xreliquary:mob_ingredient@0"
   },
   
   // Catalyzing Gland
   {
-    "mob": ["grimoireofgaia:creep", "nex:ghast_queen"],
+    "mob": ["grimoireofgaia:creep", "netherex:ghast_queen"],
     "random": "0.4", 
     "item": "xreliquary:mob_ingredient@3"
   },
   {
-    "mob": ["nex:ghastling"],
+    "mob": ["netherex:ghastling"],
     "random": "0.2", 
     "item": "xreliquary:mob_ingredient@3"
   },
@@ -271,9 +237,21 @@
 	"itemcount": "1-4"
   },
   
+  // Misc
+  {
+    "mob": ["grimoireofgaia:dwarf"],
+    "item": "embers:shard_ember@0",
+	"itemcount": "1-3"
+  },
+  {
+    "mob": ["grimoireofgaia:dwarf"],
+    "random": "0.3", 
+    "item": "embers:crystal_ember@0"
+  },
+  
   // More coins in beneath
   {
-    "dimension": -100,
+    "dimension": -2,
     "player": true,
     "item": "ordinarycoins:coinbronze@0",
 	"itemcount": "1"
@@ -285,5 +263,33 @@
     "player": true,
     "random": "0.01",
     "item": "ordinarycoins:coinsilver@0"
+  },
+  
+  // Deer antlers drop
+  {
+    "mob": "familiarfauna:familiarfauna.deer",
+    "player": true,
+    "random": "0.5",
+    "item": "mysticalworld:antlers@0"
+  },
+  
+  // Verdant sprigs
+  {
+    "mob": ["mysticalworld:entity_sprout", "grimoireofgaia:dryad"],
+    "player": true,
+    "random": "0.5",
+    "item": "contenttweaker:verdant_sprig@0"
+  },
+  
+  // Remove item drops from EBwiz minions
+  {
+    "mob": ["ebwizardry:blaze_minion","ebwizardry:spider_minion","ebwizardry:zombie_minion","ebwizardry:skeleton_minion","ebwizardry:wither_skeleton_minion","ebwizardry:silverfish_minion","ebwizardry:spirit_wolf","ebwizardry:spirit_horse", "tfspellpack:carminite_ghastling_minion", "tfspellpack:cave_troll_minion", "tfspellpack:redcap_goblin_minion", "tfspellpack:redcap_sapper_minion", "tfspellpack:skeleton_druid_minion", "tfspellpack:slime_beetle_minion", "tfspellpack:snow_guardian_minion", "tfspellpack:stable_ice_core_minion", "tfspellpack:twilight_wraith_minion", "tfspellpack:unstable_ice_core_minion"],
+    "removeall": true
+  },
+  // Crimson blade rare drop
+  {
+    "mob": "thaumcraft:cultistknight",
+    "random": "0.01",
+    "item": "thaumcraft:crimson_blade"
   }
 ]

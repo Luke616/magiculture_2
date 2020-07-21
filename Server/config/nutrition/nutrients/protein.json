@@ -1148,7 +1148,31 @@
 			"zawa:large_meat_raw",
 			"zawa:raw_frog_leg",
 			"zawa:reptile_meat_cooked",
-			"zawa:reptile_meat_raw"
+			"zawa:reptile_meat_raw",
+			"artifacts:everlasting_porkchop",
+			"artifacts:everlasting_cooked_porkchop",
+			"artifacts:everlasting_beef",
+			"artifacts:everlasting_cooked_beef",
+			"artifacts:everlasting_chicken",
+			"artifacts:everlasting_cooked_chicken",
+			"artifacts:everlasting_rabbit",
+			"artifacts:everlasting_cooked_rabbit",
+			"artifacts:everlasting_rabbit_stew",
+			"artifacts:everlasting_mutton",
+			"artifacts:everlasting_cooked_mutton",
+			"artifacts:everlasting_cod",
+			"artifacts:everlasting_cooked_cod",
+			"artifacts:everlasting_salmon",
+			"artifacts:everlasting_cooked_salmon",
+			"artifacts:everlasting_clownfish",
+			"artifacts:everlasting_rotten_flesh",
+			"artifacts:everlasting_spider_eye",
+			"minecraft:rotten_flesh",
+			"minecraft:spider_eye",
+			"quark:frog_leg",
+			"quark:cooked_frog_leg",
+			"quark:crab_leg",
+			"quark:cooked_crab_leg"
 		]
 	}
 }

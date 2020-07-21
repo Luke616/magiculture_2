@@ -1,0 +1,1415 @@
+[
+    {
+      "content": "harvestcraft:pizzaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+	  "weight": 150
+    },
+    {
+      "content": "harvestcraft:baconmushroomburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:homestylelunchitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:mobsoupitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:deluxecheeseburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:hotandsoursoupitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:chilidogitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:breakfastburritoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:takoyakiitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:cheesesteakitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:zucchinifriesitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:zucchinibakeitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:epicbaconitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 2000,
+      "weight": 50
+    },
+	{
+      "content": "harvestcraft:chickengumboitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 1000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:ceasarsaladitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:paneertikkamasalaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:ironbrewitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:netherwingsitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:steakfajitaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:hamandpineapplepizzaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:szechuaneggplantitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:tacoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:fishtacoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:frenchtoastitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:friedchickenitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:footlongitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:baklavaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:shepardspieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:bbqpulledporkitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 900,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:sweetandsourchickenitem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:teriyakichickenitem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:crayfishsaladitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:padthaiitem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:fishandchipsitem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 800,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:softpretzelandmustarditem",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:coconutshrimpitem",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:pecanpieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:maplesyrupwafflesitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:beefwellingtonitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1600,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:generaltsochickenitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:hamandcheesesandwichitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:springrollitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:pekingduckitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:stuffedduckitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:fishsandwichitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:pbandjitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:orangechickenitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:mixedsaladitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 300
+    },
+	{
+      "content": "harvestcraft:honeylemonlambitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 130
+    },
+	{
+      "content": "harvestcraft:honeyglazedcarrotsitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:lasagnaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:mozzerellasticksitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:berryvinaigrettesaladitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:spidereyepieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:greenbeancasseroleitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:strawberryrhubarbpieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:spagettiandmeatballsitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1000,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:chickenparmasanitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:mushroomrisottoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:lemonchickenitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:blueberrypieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:eggplantparmitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:pineapplehamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:guacamoleitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:peachcobbleritem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:cinnamonrollitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:meatystewitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:mintchocolatechipicecreamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:chorizoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:hushpuppiesitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:veggiestripsitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:honeyglazedhamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:hummusitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:salsaitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:babaganoushitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:threebeansaladitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:escargotitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:shrimpcocktailitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:chiliitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:espressoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:sushiitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 250
+    },
+	{
+      "content": "harvestcraft:gardensoupitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 250
+    },
+	{
+      "content": "harvestcraft:strawberryicecreamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:vanillaicecreamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:ovenroastedcaulifloweritem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:neapolitanicecreamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:spumoniicecreamitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:baconandeggsitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:liverandonionsitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:ramenitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:chorusfruitsoupitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:lemonaideitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 250
+    },
+	{
+      "content": "harvestcraft:bananasmoothieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:raspberrysmoothieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:chocolatebaconitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:okrachipsitem",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 300,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:onigiriitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:fruitsaladitem",
+      "amount": {
+        "min": 1,
+        "max": 7
+      },
+      "unitWorth": 200,
+      "weight": 300
+    },
+	{
+      "content": "harvestcraft:blueberryyogurtitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:strawberryyogurtitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:gooseberryyogurtitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:fruitpunchitem",
+      "amount": {
+        "min": 1,
+        "max": 6
+      },
+      "unitWorth": 200,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:pinacoladaitem",
+      "amount": {
+        "min": 1,
+        "max": 4
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:bamboosteamedriceitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:applecideritem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 300,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:squidinkspaghettiitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:redvelvetcakeitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:spinachpieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:nachoesitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 300
+    },
+	{
+      "content": "harvestcraft:friedgreentomatoesitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:friedriceitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:friedonionsitem",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 200,
+      "weight": 300
+    },
+	{
+      "content": "harvestcraft:friesitem",
+      "amount": {
+        "min": 1,
+        "max": 8
+      },
+      "unitWorth": 200,
+      "weight": 500
+    },
+	{
+      "content": "harvestcraft:cheeseburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:hamburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 180
+    },
+	{
+      "content": "harvestcraft:mangosmoothieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:peachsmoothieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:strawberrymilkshakeitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:chocolatemilkshakeitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 400,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:grapefruitjuiceitem",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 300,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:cranberryjuiceitem",
+      "amount": {
+        "min": 1,
+        "max": 5
+      },
+      "unitWorth": 300,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:cornedbeefbreakfastitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:minerstewitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3600,
+      "weight": 60
+    },
+	{
+      "content": "harvestcraft:meatfeastpizzaitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:thankfuldinneritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:koreandinneritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:southernstylebreakfastitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:gourmetvenisonburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 3000,
+      "weight": 70
+    },
+	{
+      "content": "harvestcraft:deluxechickencurryitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:weekendpicnicitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:gourmetbeefburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:ploughmanslunchitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 900,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:cornedbeefhashitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:chimichangaitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2700,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:salisburysteakitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2700,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:deluxenachoesitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:gourmetmuttonburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:paradiseburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:delightedmealitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:heartybreakfastitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:supremepizzaitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1500,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:bbqplatteritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1800,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:chickenandwafflesitem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 1800,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:gourmetporkburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2000,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:beetburgeritem",
+      "amount": {
+        "min": 1,
+        "max": 1
+      },
+      "unitWorth": 2400,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:spaghettidinneritem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1800,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:gumboitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1800,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:jambalayaitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1800,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:eggsbenedictitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1500,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:glisteningsaladitem",
+      "amount": {
+        "min": 1,
+        "max": 2
+      },
+      "unitWorth": 1500,
+      "weight": 80
+    },
+	{
+      "content": "harvestcraft:loadedbakedpotatoitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 100
+    },
+	{
+      "content": "harvestcraft:stuffedmushroomitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:chickenpotpieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 800,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:potroastitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 600,
+      "weight": 120
+    },
+	{
+      "content": "harvestcraft:pumpkinbreaditem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 150
+    },
+	{
+      "content": "harvestcraft:applepieitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 500,
+      "weight": 200
+    },
+	{
+      "content": "harvestcraft:pumpkincheesecakeitem",
+      "amount": {
+        "min": 1,
+        "max": 3
+      },
+      "unitWorth": 700,
+      "weight": 120
+    }
+]

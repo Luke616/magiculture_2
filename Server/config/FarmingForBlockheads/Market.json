@@ -31,16 +31,16 @@
     "traverse:brown_autumnal_sapling": "15*ordinarycoins:coinbronze",
     "rustic:sapling:0": "15*ordinarycoins:coinbronze",
     "rustic:sapling:1": "15*ordinarycoins:coinbronze",
-    "rainboaks:rainboak_sapling": "3*ordinarycoins:coinsilver",
+    "twilightforest:twilight_sapling:9": "3*ordinarycoins:coingold",
     "3*rustic:tomato_seeds": "9*ordinarycoins:coinbronze",
     "3*rustic:chili_pepper_seeds": "9*ordinarycoins:coinbronze",
     "3*rustic:grape_stem": "9*ordinarycoins:coinbronze",
-    "animania:entity_egg_cow_random": "1*ordinarycoins:coinsilver",
-    "animania:entity_egg_chicken_random": "1*ordinarycoins:coinsilver",
-    "animania:entity_egg_pig_random": "1*ordinarycoins:coinsilver",
-    "animania:entity_egg_goat_random": "1*ordinarycoins:coinsilver",
-    "animania:entity_egg_sheep_random": "1*ordinarycoins:coinsilver",
-    "animania:entity_egg_rabbit_random": "1*ordinarycoins:coinsilver"
+    "animania:entity_egg_cow_random": "1*ordinarycoins:coingold",
+    "animania:entity_egg_chicken_random": "1*ordinarycoins:coingold",
+    "animania:entity_egg_pig_random": "1*ordinarycoins:coingold",
+    "animania:entity_egg_goat_random": "1*ordinarycoins:coingold",
+    "animania:entity_egg_sheep_random": "1*ordinarycoins:coingold",
+    "animania:entity_egg_rabbit_random": "1*ordinarycoins:coingold"
   },
   "defaults amount": {
     "Vanilla Seeds": 3,

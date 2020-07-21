@@ -44,10 +44,8 @@
 				action: "add",
 				CareerLevel: 1,
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:12,max:15}},
-				sell: {id:"refinedstorage:silicon",Count:6,Damage:0}
+				sell: {id:"enderio:item_material",Count:6,Damage:5}
 			},
-			
-			
 			
 			{
 				action: "add",
@@ -59,7 +57,7 @@
 			{
 				action: "add",
 				CareerLevel: 2,
-				buy: {id:"immersiveengineering:metal",Count:{min:17,max:19},Damage:1},
+				buy: {id:"embers:ingot_aluminum",Count:{min:17,max:19}},
 				sell: {id:"ordinarycoins:coinbronze",Count:12}
 			},
 			
@@ -90,8 +88,6 @@
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
 				sell: {id:"immersiveengineering:blueprint",Count:1,Damage:0,tag:[{blueprint: "bullet"},{blueprint: "components"},{blueprint: "molds"}]}
 			},
-			
-		
 			
 			{
 				action: "add",
@@ -131,33 +127,66 @@
 			{
 				action: "add",
 				CareerLevel: 3,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:24,max:27}},
+				sell: {id:"appliedenergistics2:material",Count:12,Damage:0}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:32,max:36}},
+				sell: {id:"appliedenergistics2:material",Count:3,Damage:39}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 4,
 				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
 				sell: {id:"immersiveengineering:blueprint",Count:1,Damage:0,tag:[{blueprint: "specialBullet"},{blueprint: "electrode"}]}
 			},
 			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
+				sell: {id:"appliedenergistics2:material",Count:1,Damage:19}
+			},
 			
+			{
+				action: "add",
+				CareerLevel: 4,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
+				sell: {id:"appliedenergistics2:material",Count:1,Damage:15}
+			},
+			
+			{
+				action: "add",
+				CareerLevel: 5,
+				buy: {id:"ordinarycoins:coinbronze",Count:{min:21,max:25}},
+				sell: {id:"appliedenergistics2:material",Count:1,Damage:[13, 14]}
+			},
 			
 			{
 				action:"add", 
-				buy:{id:"ordinarycoins:coinsilver",Count:2}, 
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:24,max:32}},
+				buy:{id:"ordinarycoins:coingold",Count:2}, 
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:3,max:5}},
 				sell:{id:"scannable:scanner",Count:1,Damage:0}, 
-				CareerLevel:4
+				CareerLevel:5
 			},
 			
 			{
 				action:"add",
 				buy:{id:"ordinarycoins:coinbronze",Count:{min:48,max:52}},
 				sell:{id:"scannable:module_blank",Count:1,Damage:0}, 
-				CareerLevel:4
+				CareerLevel:5
 			},
 			
 			{
 				action:"add", 
-				buy:{id:"ordinarycoins:coinsilver",Count:1}, 
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:32,max:42}},
+				buy:{id:"ordinarycoins:coingold",Count:1}, 
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:4,max:5}},
 				sell:{id:"industrialforegoing:mob_imprisonment_tool",Count:1,Damage:0}, 
-				CareerLevel:4
+				CareerLevel:5
 			}
 			
 		

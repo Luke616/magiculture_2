@@ -3,6 +3,27 @@
 	// these values will take precedence over HO's default values
 	"foods": [
 	
+		// MISC ITEMS
+		
+		{
+			"name": "harvestcraft:stockitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:gravyitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:tortillaitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+	
 		// JUICES
 		
 		{
@@ -320,6 +341,12 @@
 			"hunger": 2,
 			"saturationModifier": 0.25
 		},
+		{
+			"name": "harvestcraft:cherryslushieitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.25
+		},
 		
 		// MILKSHAKE
 		
@@ -410,6 +437,12 @@
 			"hunger": 0,
 			"saturationModifier": 0
 		},
+		{
+			"name": "harvestcraft:applecideritem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
 		
 		// TEAS
 		
@@ -456,6 +489,24 @@
 			"hunger": 0,
 			"saturationModifier": 0
 		},
+		{
+			"name": "harvestcraft:rosepetalteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:dandelionteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:lycheeteaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
 		
 		// COFFEE
 		
@@ -473,6 +524,12 @@
 		},
 		{
 			"name": "harvestcraft:coffeeconlecheitem",
+			"meta": 0,
+			"hunger": 1,
+			"saturationModifier": 2.0
+		},
+		{
+			"name": "harvestcraft:pumpkinspicelatteeitem",
 			"meta": 0,
 			"hunger": 1,
 			"saturationModifier": 2.0
@@ -544,9 +601,46 @@
 			"hunger": 4,
 			"saturationModifier": 0.25
 		},
+		{
+			"name": "harvestcraft:seedenergygelitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
+		{
+			"name": "harvestcraft:hotcocoaitem",
+			"meta": 0,
+			"hunger": 0,
+			"saturationModifier": 0
+		},
 		
 		// FOODS
 		
+		
+		{
+			"name": "harvestcraft:poutineitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:caesarsaladitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:driedsoupitem",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.5
+		},
+		{
+			"name": "harvestcraft:suaderoitem",
+			"meta": 0,
+			"hunger": 4,
+			"saturationModifier": 0.5
+		},
 		{
 			"name": "harvestcraft:lemonbaritem",
 			"meta": 0,
@@ -563,7 +657,7 @@
 			"name": "harvestcraft:toastitem",
 			"meta": 0,
 			"hunger": 4,
-			"saturationModifier": 0.75
+			"saturationModifier": 0.5
 		},
 		{
 			"name": "harvestcraft:southernstylebreakfastitem",
@@ -588,6 +682,18 @@
 			"meta": 0,
 			"hunger": 20,
 			"saturationModifier": 1.0
+		},
+		{
+			"name": "harvestcraft:beefwellingtonitem",
+			"meta": 0,
+			"hunger": 6,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "harvestcraft:cornedbeefitem",
+			"meta": 0,
+			"hunger": 8,
+			"saturationModifier": 0.75
 		},
 		{
 			"name": "harvestcraft:cornedbeefbreakfastitem",

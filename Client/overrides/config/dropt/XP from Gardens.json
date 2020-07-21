@@ -1,0 +1,39 @@
+{
+  "rules": [
+    {
+      "match": {
+	    "harvester": {
+			"type": "REAL_PLAYER"
+				},
+        "blocks": {
+          "blocks": [
+			"harvestcraft:windygarden:0",
+			"harvestcraft:aridgarden:0",
+			"harvestcraft:frostgarden:0",
+			"harvestcraft:shadedgarden:0",
+			"harvestcraft:tropicalgarden:0",
+			"harvestcraft:soggygarden:0"
+          ]
+        }
+        },
+      "replaceStrategy": "ADD",
+	  "dropCount": {
+		  "fixed": 1
+		},
+      "drops": [
+		{
+          "selector": {
+			"weight": {
+              "value": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+		"xp": {
+			"min": 2,
+			"max": 3
+			}
+		}
+		]
+	}
+	]
+}

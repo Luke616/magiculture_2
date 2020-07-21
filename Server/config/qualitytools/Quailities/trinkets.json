@@ -12,6 +12,12 @@
       {
         "slot": "baubles_trinket"
       },
+	  {
+        "slot": "baubles_ring"
+      },
+	  {
+        "slot": "baubles_amulet"
+      },
       {
         "item": "qualitytools:emerald_ring"
       },
@@ -20,135 +26,21 @@
       },
       {
         "item": "minecraft:totem_of_undying"
+      },
+	  {
+        "class": "ItemArtefact"
       }
     ],
     "blacklist": [
-    
+	  
     ],
     "qualities": [
-      {
-        "name": "quality.horrible.name",
-        "color": "dark_gray",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.clunky.name",
-        "color": "dark_gray",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.movementSpeed",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "generic.attackSpeed",
-            "amount": -0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.unlucky.name",
-        "color": "red",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.luck",
-            "amount": -0.5,
-            "operation": 0
-          }
-        ]
-      },
-	  {
-        "name": "Slowing",
-        "color": "red",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.movementSpeed",
-            "amount": -0.05,
-            "operation": 2
-          }
-        ]
-      },
-	  {
-        "name": "Nullifying",
-        "color": "yellow",
-        "weight": 50,
-        "attributes": [
-          {
-            "name": "potioncore.magicShielding",
-            "amount": 3,
-            "operation": 0
-          },
-		  {
-            "name": "potioncore.magicDamage",
-            "amount": -0.07,
-            "operation": 2
-          }
-        ]
-      },
-	  {
-        "name": "Abyssal",
-        "color": "yellow",
-        "weight": 50,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.12,
-            "operation": 2
-          },
-		  {
-            "name": "potioncore.damageResistance",
-            "amount": -0.1,
-            "operation": 2
-          }
-        ]
-      },
-	  {
-        "name": "Demonic",
-        "color": "yellow",
-        "weight": 50,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.12,
-            "operation": 2
-          },
-		  {
-            "name": "generic.luck",
-            "amount": -1.0,
-            "operation": 0
-          }
-        ]
-      },
       {
         "name": "normal",
         "weight": 1
       },
+	  
+	  
       {
         "name": "quality.lucky.name",
         "color": "blue",
@@ -161,10 +53,11 @@
           }
         ]
       },
+	  
       {
         "name": "quality.healthy.name",
-        "color": "blue",
-        "weight": 100,
+        "color": "aqua",
+        "weight": 70,
         "attributes": [
           {
             "name": "generic.maxHealth",
@@ -173,10 +66,35 @@
           }
         ]
       },
+	  
       {
-        "name": "quality.armored.name",
+        "name": "Hard",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Guarding",
         "color": "blue",
         "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.damageResistance",
+            "amount": 0.04,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Armored",
+        "color": "aqua",
+        "weight": 70,
         "attributes": [
           {
             "name": "potioncore.damageResistance",
@@ -185,10 +103,50 @@
           }
         ]
       },
+	  
+	  
+	  {
+        "name": "Warding",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "potioncore.magicShielding",
+            "amount": 1,
+            "operation": 0
+          }
+        ]
+      },
+	  
+	  
       {
-        "name": "quality.speedy.name",
+        "name": "Brisk",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	   {
+        "name": "Hasty",
         "color": "blue",
         "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.movementSpeed",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	   {
+        "name": "Quick",
+        "color": "aqua",
+        "weight": 70,
         "attributes": [
           {
             "name": "generic.movementSpeed",
@@ -197,8 +155,48 @@
           }
         ]
       },
+	  
+	  
+	  {
+        "name": "Diligent",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Tireless",
+        "color": "blue",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Industrious",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "potioncore.digSpeed",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      },
+	  
+	  
       {
-        "name": "quality.springy.name",
+        "name": "Springy",
         "color": "blue",
         "weight": 100,
         "attributes": [
@@ -209,155 +207,159 @@
           }
         ]
       },
+	  
+	  
       {
-        "name": "quality.prospecting.name",
-        "color": "blue",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "potioncore.digSpeed",
-            "amount": 0.07,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.flailing.name",
-        "color": "blue",
+        "name": "Wild",
+        "color": "white",
         "weight": 100,
         "attributes": [
           {
             "name": "generic.attackSpeed",
-            "amount": 0.07,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.shielding.name",
-        "color": "blue",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "potioncore.magicShielding",
-            "amount": 1,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "quality.focusing.name",
-        "color": "blue",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.07,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.aiming.name",
-        "color": "blue",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": 0.07,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.strengthening.name",
-        "color": "blue",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.07,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.graceful.name",
-        "color": "aqua",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.attackSpeed",
-            "amount": 0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.digSpeed",
-            "amount": 0.05,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.athletic.name",
-        "color": "aqua",
-        "weight": 100,
-        "attributes": [
-          {
-            "name": "generic.movementSpeed",
-            "amount": 0.05,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.jumpHeight",
-            "amount": 0.5,
-            "operation": 0
-          }
-        ]
-      },
-      {
-        "name": "quality.punishing.name",
-        "color": "light_purple",
-        "weight": 30,
-        "attributes": [
-          {
-            "name": "generic.attackDamage",
-            "amount": 0.04,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.projectileDamage",
-            "amount": 0.04,
-            "operation": 2
-          },
-          {
-            "name": "potioncore.magicDamage",
-            "amount": 0.04,
-            "operation": 2
-          }
-        ]
-      },
-      {
-        "name": "quality.undying.name",
-        "color": "light_purple",
-        "weight": 20,
-        "attributes": [
-          {
-            "name": "generic.maxHealth",
-            "amount": 2,
-            "operation": 0
-          },
-          {
-            "name": "potioncore.damageResistance",
             "amount": 0.03,
             "operation": 2
-          },
+          }
+        ]
+      },
+	  {
+        "name": "Rash",
+        "color": "blue",
+        "weight": 100,
+        "attributes": [
           {
-            "name": "potioncore.magicShielding",
-            "amount": 1,
-            "operation": 0
+            "name": "generic.attackSpeed",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Intrepid",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "generic.attackSpeed",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      },
+	  
+	  
+      {
+        "name": "Arcane",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Empowering",
+        "color": "blue",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Catalytic",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "potioncore.magicDamage",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      },
+	  
+	  
+      {
+        "name": "Keen",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Piercing",
+        "color": "blue",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Deadly",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "potioncore.projectileDamage",
+            "amount": 0.07,
+            "operation": 2
+          }
+        ]
+      },
+	  
+	  
+	  
+      {
+        "name": "Jagged",
+        "color": "white",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.03,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Spiked",
+        "color": "blue",
+        "weight": 100,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.05,
+            "operation": 2
+          }
+        ]
+      },
+	  {
+        "name": "Menacing",
+        "color": "aqua",
+        "weight": 70,
+        "attributes": [
+          {
+            "name": "generic.attackDamage",
+            "amount": 0.07,
+            "operation": 2
           }
         ]
       }
+	  
     ]
 }

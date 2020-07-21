@@ -36,6 +36,24 @@
 			"saturationModifier": 0.5
 		},
 		{
+			"name": "rootsclassic:blackcurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "rootsclassic:whitecurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
+			"name": "rootsclassic:redcurrant",
+			"meta": 0,
+			"hunger": 2,
+			"saturationModifier": 0.75
+		},
+		{
 			"name": "xreliquary:glowing_bread",
 			"meta": 0,
 			"hunger": 20,

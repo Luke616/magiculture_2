@@ -1,0 +1,92 @@
+{
+  "rules": [
+    {
+      "match": {
+	    "harvester": {
+			"type": "REAL_PLAYER"
+				},
+        "blocks": {
+          "blocks": [
+            "minecraft:pumpkin:*"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "harvestcraft:harvestpumpkinitem"
+            ],
+            "quantity": {
+              "min": 1,
+              "max": 1
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 1,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "harvestcraft:harvestpumpkinitem"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 2
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "harvestcraft:harvestpumpkinitem"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 1,
+			"max": 2,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

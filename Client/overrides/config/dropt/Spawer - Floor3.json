@@ -28,7 +28,7 @@
 			"weight": {
               "value": 24
 				},
-			"silktouch": "EXCLUDE"
+			"silktouch": "EXCLUDED"
           },
           "item": {
             "items": [
@@ -51,7 +51,7 @@
 			"weight": {
               "value": 3
 				},
-			"silktouch": "EXCLUDE"
+			"silktouch": "EXCLUDED"
           },
           "item": {
             "items": [
@@ -73,7 +73,7 @@
 			"weight": {
               "value": 2
 				},
-			"silktouch": "EXCLUDE"
+			"silktouch": "EXCLUDED"
           },
           "item": {
             "items": [
@@ -95,7 +95,7 @@
 			"weight": {
               "value": 1
 				},
-			"silktouch": "EXCLUDE"
+			"silktouch": "EXCLUDED"
           },
           "item": {
             "items": [

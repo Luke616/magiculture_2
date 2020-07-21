@@ -902,7 +902,11 @@
 			"xlfoodmod:tortilla",
 			"xlfoodmod:vegetable_soup",
 			"zawa:bamboo_shoot",
-			"zawa:dried_bamboo_shoot"
+			"zawa:dried_bamboo_shoot",
+			"artifacts:everlasting_rabbit_stew",
+			"quark:root",
+			"inspirations:potato_soup",
+			"charm:suspicious_soup"
 		]
 	}
 }

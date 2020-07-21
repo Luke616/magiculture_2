@@ -16,7 +16,7 @@
         "facing": "*"
       }
     },
-    "temperature": 5.0
+    "temperature": 4.0
   },
   {
     "state": {
@@ -53,7 +53,7 @@
         "level": "*"
       }
     },
-    "temperature": 20.0
+    "temperature": 16.0
   },
   {
     "state": {
@@ -62,13 +62,13 @@
         "level": "*"
       }
     },
-    "temperature": 18.0
+    "temperature": 7.0
   },
   {
     "state": {
       "block": "minecraft:magma",
       "properties": {}
     },
-    "temperature": 7.0
+    "temperature": 6.0
   }
 ]

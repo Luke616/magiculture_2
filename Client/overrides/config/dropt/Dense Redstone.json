@@ -1,0 +1,89 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:redstone_ore_dense"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 10,
+              "max": 13
+            }
+          },
+		  "xp": {
+			"min": 5,
+			"max": 7,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 12,
+              "max": 15
+            }
+          },
+		  "xp": {
+			"min": 5,
+			"max": 8,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "minecraft:redstone"
+            ],
+            "quantity": {
+              "min": 14,
+              "max": 18
+            }
+          },
+		  "xp": {
+			"min": 6,
+			"max": 8,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

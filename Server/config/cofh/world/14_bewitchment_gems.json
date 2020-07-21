@@ -1,0 +1,95 @@
+{
+	"populate": {
+	
+		"garnet": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": [{"name": "bewitchment:garnet_ore", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 12,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MAGICAL"},
+					{"type": "dictionary", "entry": "SPOOKY"},
+					{"type": "dictionary", "entry": "DESERT"},
+					{"type": "dictionary", "entry": "SWAMP"},
+					{"type": "dictionary", "entry": "WATER"},
+					{"type": "dictionary", "entry": "OCEAN"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"opal": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": [{"name": "bewitchment:opal_ore", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 12,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "MAGICAL"},
+					{"type": "dictionary", "entry": "SPOOKY"},
+					{"type": "dictionary", "entry": "MOUNTAIN"},
+					{"type": "dictionary", "entry": "PLAINS"},
+					{"type": "dictionary", "entry": "SNOWY"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		},
+		"amethyst": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": [{"name": "bewitchment:amethyst_ore", "metadata": 0, "weight": 1}],
+				"material": ["minecraft:stone", "quark:biome_cobblestone"],
+				"cluster-size": 1
+			},
+			"cluster-count": 4,
+			"chunk-chance": 1,	
+			"min-height": 12,
+			"max-height": 90,
+			"retrogen": "true",
+			"ceiling": true,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{"type": "dictionary", "entry": "SPOOKY"}
+					]
+				},
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					0
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,6 @@
+mod name - enchantment name - enchantment registry name
+Bewitchment - Magic Protection - bewitchment:magic_protection
+Charm - Magnetic - charm:magnetic
+Electroblob's Wizardry - Shock Protection - ebwizardry:shock_protection
+Electroblob's Wizardry - Magic Protection - ebwizardry:magic_protection
+Electroblob's Wizardry - Frost Protection - ebwizardry:frost_protection

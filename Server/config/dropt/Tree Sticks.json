@@ -6,23 +6,20 @@
           "blocks": [
 			"minecraft:leaves:*",
 			"minecraft:leaves2:*",
-			"traverse:red_autumnal_leaves:*",
-			"traverse:brown_autumnal_leaves:*",
-			"traverse:orange_autumnal_leaves:*",
-			"traverse:yellow_autumnal_leaves:*",
-			"traverse:fir_leaves:*",
 			"rustic:leaves:*",
-			"dynamictrees:leaves0",
-			"dynamictrees:leaves1",
-			"dynamictrees:oakbranch",
-			"dynamictrees:sprucebranch",
-			"dynamictrees:birchbranch",
-			"dynamictrees:junglebranch",
-			"dynamictrees:acaciabranch",
-			"dynamictrees:darkoakbranch",
-			"dynamictrees:greatwoodbranch",
-			"dynamictrees:silverwoodbranch",
-			"dynamictrees:firbranch"
+			"twilightforest:twilight_leaves:*",
+			"twilightforest:twilight_leaves_3:*",
+			"thaumcraft:leaves_silverwood:*",
+			"thaumcraft:leaves_greatwood:*",
+			"bewitchment:cypress_leaves:*",
+			"bewitchment:elder_leaves:*",
+			"bewitchment:juniper_leaves:*",
+			"bewitchment:dragons_blood_leaves:*",
+			"naturesaura:ancient_leaves:*",
+			"naturesaura:decayed_leaves:*",
+			"naturesaura:golden_leaves:*",
+			"quark:variant_leaves:*",
+			"roots:wildwood_leaves:*"
           ]
         }
         },
@@ -34,7 +31,7 @@
         {
         "selector": {
 			"weight": {
-              "value": 5
+              "value": 3
 				},
 			"silktouch": "EXCLUDED"
             },
@@ -43,20 +40,28 @@
 				"minecraft:stick"
 					],
 			"quantity": {
-				"min": 1,
-				"max": 1
+				"fixed": 1
 					}
 			},
 		"xp": {
-			"min": 1,
-			"max": 1,
-			"fortuneModifier": 0
+			"fixed": 1
+			}
+		},
+		{
+        "selector": {
+			"weight": {
+              "value": 5
+				},
+			"silktouch": "EXCLUDED"
+            },
+		"xp": {
+			"fixed": 1
 			}
 		},
 		{
 		"selector": {
 			"weight": {
-				"value": 95
+				"value": 92
 				}
 			}
 		}

@@ -1,0 +1,74 @@
+mod name - enchantment name - enchantment registry name
+Astral Sorcery - Night Vision - astralsorcery:enchantment.as.nightvision
+Astral Sorcery - Scorching Heat - astralsorcery:enchantment.as.smelting
+Bewitchment - Magic Protection - bewitchment:magic_protection
+Capsule - Recall - capsule:recall
+Charm - Curse of Rusting - charm:rusting_curse
+Charm - Curse of Harming - charm:harming_curse
+Charm - Salvage - charm:salvage
+Charm - Curse Break - charm:curse_break
+Charm - Curse of Haunting - charm:haunting_curse
+Charm - Homing - charm:homing
+Charm - Magnetic - charm:magnetic
+Charm - Curse of Clumsiness - charm:clumsiness_curse
+CoFH Core - Vorpal - cofhcore:vorpal
+CoFH Core - Holding - cofhcore:holding
+CoFH Core - Smashing - cofhcore:smashing
+CoFH Core - Smelting - cofhcore:smelting
+CoFH Core - Leech - cofhcore:leech
+CoFH Core - Insight - cofhcore:insight
+CoFH Core - Multishot - cofhcore:multishot
+CoFH Core - Soulbound - cofhcore:soulbound
+Corpse Complex - Soulbinding - corpsecomplex:soulbound
+Electroblob's Wizardry - Shock Protection - ebwizardry:shock_protection
+Electroblob's Wizardry - Imbuement - ebwizardry:magic_bow
+Electroblob's Wizardry - Fire Imbuement - ebwizardry:flaming_weapon
+Electroblob's Wizardry - Frost Imbuement - ebwizardry:freezing_weapon
+Electroblob's Wizardry - Magic Protection - ebwizardry:magic_protection
+Electroblob's Wizardry - Frost Protection - ebwizardry:frost_protection
+Electroblob's Wizardry - Imbuement - ebwizardry:magic_sword
+Ender IO - Withering - enderio:witherarrow
+Ender IO - Shimmer - enderio:shimmer
+Ender IO - Soulbound - enderio:soulbound
+Ender IO - Repellent - enderio:repellent
+Ender IO - Decay - enderio:witherweapon
+Living Enchantment - Living - livingenchantment:enchantment.living
+Minecraft - Protection - minecraft:protection
+Minecraft - Knockback - minecraft:knockback
+Minecraft - Efficiency - minecraft:efficiency
+Minecraft - Sweeping Edge - minecraft:sweeping
+Minecraft - Projectile Protection - minecraft:projectile_protection
+Minecraft - Respiration - minecraft:respiration
+Minecraft - Luck of the Sea - minecraft:luck_of_the_sea
+Minecraft - Curse of Vanishing - minecraft:vanishing_curse
+Minecraft - Bane of Arthropods - minecraft:bane_of_arthropods
+Minecraft - Feather Falling - minecraft:feather_falling
+Minecraft - Lure - minecraft:lure
+Minecraft - Unbreaking - minecraft:unbreaking
+Minecraft - Aqua Affinity - minecraft:aqua_affinity
+Minecraft - Fire Aspect - minecraft:fire_aspect
+Minecraft - Looting - minecraft:looting
+Minecraft - Blast Protection - minecraft:blast_protection
+Minecraft - Fortune - minecraft:fortune
+Minecraft - Smite - minecraft:smite
+Minecraft - Depth Strider - minecraft:depth_strider
+Minecraft - Curse of Binding - minecraft:binding_curse
+Minecraft - Power - minecraft:power
+Minecraft - Silk Touch - minecraft:silk_touch
+Minecraft - Flame - minecraft:flame
+Minecraft - Infinity - minecraft:infinity
+Minecraft - Fire Protection - minecraft:fire_protection
+Minecraft - Thorns - minecraft:thorns
+Minecraft - Punch - minecraft:punch
+Minecraft - Frost Walker - minecraft:frost_walker
+Minecraft - Sharpness - minecraft:sharpness
+Minecraft - Mending - minecraft:mending
+Shield Parrying - Rebound - parry:parry
+Spartan Shields - Spikes - spartanshields:ssenchspikes
+Spartan Weaponry - Lightweight - spartanweaponry:throwing_range
+Spartan Weaponry - Lucky Strike - spartanweaponry:throwing_luck
+Spartan Weaponry - Sharpened - spartanweaponry:throwing_damage
+Spartan Weaponry - Incendiary - spartanweaponry:throwing_fire
+Spectrite - Superchromaticity - spectrite:spectrite_enhance
+Veining - Veining - veining:veining
+Yoyos - Collecting - yoyos:collecting

@@ -1,0 +1,97 @@
+{
+  "rules": [
+    {
+      "match": {
+        "blocks": {
+          "blocks": [
+            "contenttweaker:spectrite_ore_shiny"
+          ]
+        }
+        },
+      "replaceStrategy": "REPLACE_ALL_IF_SELECTED",
+	  "dropCount": {
+		  "fixed": 1,
+		  "fortuneModifier": 0
+		},
+      "drops": [
+        {
+          "force": true,
+          "item": {
+            "items" : [
+              "spectrite:spectrite_star"
+            ]
+          }
+        },
+        {
+           "selector": {
+			"weight": {
+              "value": 5,
+              "fortuneModifier": -2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "spectrite:spectrite_gem"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 3
+            }
+          },
+		  "xp": {
+			"min": 15,
+			"max": 21,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": 0,
+              "fortuneModifier": 1
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "spectrite:spectrite_gem"
+            ],
+            "quantity": {
+              "min": 2,
+              "max": 4
+            }
+          },
+		  "xp": {
+			"min": 18,
+			"max": 24,
+			"fortuneModifier": 0
+			}
+		  },
+		  {
+          "selector": {
+			"weight": {
+              "value": -4,
+              "fortuneModifier": 2
+				},
+			"silktouch": "EXCLUDED"
+          },
+          "item": {
+            "items": [
+              "spectrite:spectrite_gem"
+            ],
+            "quantity": {
+              "min": 3,
+              "max": 4
+            }
+          },
+		  "xp": {
+			"min": 21,
+			"max": 27,
+			"fortuneModifier": 0
+			}
+		  }
+		]
+    }
+  ]
+}

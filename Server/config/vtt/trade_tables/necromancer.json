@@ -93,13 +93,13 @@
 				action: "add",
 				CareerLevel: 3,
 				buy: {id:"contenttweaker:lifeblood_crystal",Count:1,Damage:0},
-				sell: {id:"ordinarycoins:coinsilver",Count:1}
+				sell: {id:"ordinarycoins:coingold",Count:1}
 			},
 			
 			{
 				action:"add", 
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:18,max:24}}, 
-				buy:{id:"ordinarycoins:coinsilver",Count:1},
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, 
+				buy:{id:"ordinarycoins:coingold",Count:1},
 				sell:{id:"corpsecomplex:scroll",Count:1}, 
 				CareerLevel:3
 			},
@@ -120,8 +120,8 @@
 			
 			{
 				action:"add", 
-				buyB:{id:"ordinarycoins:coinbronze",Count:{min:12,max:24}}, 
-				buy:{id:"ordinarycoins:coinsilver",Count:1},
+				buyB:{id:"ordinarycoins:coinsilver",Count:{min:2,max:3}}, 
+				buy:{id:"ordinarycoins:coingold",Count:1},
 				sell:{id:"minecraft:potion",Count:1,tag:{Potion:"extraalchemy:cheat_death_normal"}}, 
 				CareerLevel:4
 			},
@@ -129,14 +129,14 @@
 			{
 				action: "add",
 				CareerLevel: 4,
-				buy: {id:"ordinarycoins:coinsilver",Count:{min:25,max:27}}, 
+				buy: {id:"ordinarycoins:coingold",Count:{min:25,max:27}}, 
 				buyB: {id:"attaineddrops2:essence",Count:32,Damage:0},
 				sell: {id:"minecraft:mob_spawner",Count:1,Damage:0}
 			},
 			
 			{
 				action:"add", 
-				buyB:{id:"ordinarycoins:coinsilver",Count:{min:21,max:24}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
+				buyB:{id:"ordinarycoins:coinplatinum",Count:{min:3,max:3}}, buy:{id:"potionfingers:ring",Count:1,Damage:0},
 				sell:{id:"potionfingers:ring",Count:1,Damage:1,tag:{effect:"quark:curse"}}, 
 				CareerLevel:4
 			}
